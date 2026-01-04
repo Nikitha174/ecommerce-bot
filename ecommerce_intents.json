@@ -1,0 +1,139 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hey",
+                "hello",
+                "good morning",
+                "good afternoon",
+                "good evening"
+            ],
+            "responses": [
+                "Hi there! How can I help you today?",
+                "Hello! What's on your mind?",
+                "Good day!  Ask me anything."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you",
+                "talk to you later",
+                "end"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you later!",
+                "Bye bye!"
+            ]
+        },
+        {
+            "tag": "Order_Status",
+            "patterns": [
+                "What's the status of my order?",
+                "Where is my order?",
+                "Track my order",
+                "Order tracking",
+                "What's happening with my order?",
+                "My order status",
+                "I want to check my order status"
+            ],
+            "responses": [
+                "Please provide your order number so I can check the status for you.",
+                "To track your order, I'll need your order number. Could you please provide it?"
+            ]
+        },
+        {
+            "tag": "Product_Details",
+            "patterns": [
+                "Tell me more about this product",
+                "Product information",
+                "What are the specifications?",
+                "Show me the details",
+                "What's the description?",
+                "Can you give me more information on the {product_name}?",
+                "Details on {product_name}"
+            ],
+            "responses": [
+                "Please provide the product name or link so I can access the details for you.",
+                "I need some more information to find the product details.  Could you provide the product name or a link to the product?"
+            ]
+        },
+        {
+            "tag": "Product_Recommendation",
+            "patterns": [
+                "Suggest similar products",
+                "Recommend something similar",
+                "I like this, show me similar items",
+                "Products like this one",
+                "What else do you have like this?",
+                "Recommend something in {product_category}",
+                "I'm interested in {product_category}"
+            ],
+            "responses": [
+                "To recommend similar products, I need to know what you're interested in.  Could you please tell me the name of a product you liked, or a product category?",
+                "Based on your preferences, here are some similar products you might like: {product_links}"
+            ]
+        },
+        {
+            "tag": "Order_Tracking",
+            "patterns": [
+                "When will my order arrive?",
+                "Estimated delivery date",
+                "Delivery time",
+                "How long will it take to arrive?",
+                "Shipping information",
+                "Track my package"
+            ],
+            "responses": [
+                "Please provide your order number so I can provide you with the estimated delivery date.",
+                "To access your tracking information, please enter your order number."
+            ]
+        },
+        {
+            "tag": "Return_Policy",
+            "patterns": [
+                "What's your return policy?",
+                "How do I return an item?",
+                "Return and refund",
+                "Can I return this?",
+                "Your return process"
+            ],
+            "responses": [
+                "You can find our complete return policy here: {link to return policy}",
+                "For information on returns and refunds, please visit our help center: {link to help center}"
+            ]
+        },
+        {
+            "tag": "Payment_Methods",
+            "patterns": [
+                "What payment methods do you accept?",
+                "How can I pay?",
+                "Payment options",
+                "Accepted payment"
+            ],
+            "responses": [
+                "We accept the following payment methods: Credit Cards, Debit Cards, and Boleto Banc\u00e1rio.",
+                "Please see our payment options page for details: {link to payment options}"
+            ]
+        },
+        {
+            "tag": "Contact_Us",
+            "patterns": [
+                "Contact information",
+                "How to contact you",
+                "Get in touch",
+                "Customer service",
+                "Help"
+            ],
+            "responses": [
+                "You can contact us via email at support@example.com or call us at 9500588898",
+                "For assistance, please visit our help center at {link to help center}"
+            ]
+        }
+    ]
+}
